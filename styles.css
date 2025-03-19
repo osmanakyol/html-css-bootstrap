@@ -1,0 +1,53 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?airplane,sky') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.destination-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-1 {
+    background-image: url('https://source.unsplash.com/800x600/?paris,eiffel');
+}
+
+.destination-2 {
+    background-image: url('https://source.unsplash.com/800x600/?newyork,city');
+}
+
+.destination-3 {
+    background-image: url('https://source.unsplash.com/800x600/?tokyo,japan');
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
